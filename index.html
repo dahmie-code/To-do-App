@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="contianer">
+        <div id="header">
+            <h1>To-Do List</h1>
+            <!-- <form action="#" id="searchForm">
+                <input type="text" placeholder="Search..." value="">
+            </form> -->
+        </div>
+        <div id="main">
+            <h2>Your List:</h2>
+            <ul id="list">
+              <li class="">
+        <span class="name">
+            <input type="text" value="learn css" readonly="readonly"> 
+            <p class="saveInfo">Press "Enter" to save</p>
+        </span>
+        <span class="action">
+            <button class="mark fas fas fa-check"></button>
+            <button class="up fas fa-angle-up"></button>
+            <button class="down fas fa-angle-down"></button>
+            <button class="edit fas fa-pencil-alt"></button>
+            <button class="delete fas fa-trash-alt"></button>
+         </span>
+        </li>
+              <li>
+        <span class="name">
+            <input type="text" value="learn html" readonly="readonly"> 
+            <p class="saveInfo">Press "Enter" to save</p>
+        </span>
+        <span class="action">
+            <button class="mark fas fas fa-check"></button>
+            <button class="up fas fa-angle-up"></button>
+            <button class="down fas fa-angle-down"></button>
+            <button class="edit fas fa-pencil-alt"></button>
+            <button class="delete fas fa-trash-alt"></button>
+         </span>
+        </li>
+            </ul>
+        </div>
+        <div id="valueForm">
+            <form action="#" id="form-add">
+                <input type="text" placeholder="Add Task..." id="toDo_Input">
+                <button class="btn-primary">Add</button>
+            </form>
+        </div>
+    </main>
+  
+</body>
+<script src="script.js"></script>
+
+</html>
